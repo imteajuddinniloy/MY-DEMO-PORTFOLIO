@@ -1,0 +1,67 @@
+/* ==== FONT STYLE ==== */
+
+.font-open-sans{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
+/* ==== SHARE STYLE ===== */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ----Button----- */
+.btn{
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 18px 35px;
+    background-color: #FD6E0A;
+    color: white;
+    cursor: pointer;
+}
+
+/* ==== MAIN STYLE ==== */
+
+header{
+    background-color: #FFF8F3;
+    padding-top: 50px;
+}
+
+/* ==== NAVBAR ==== */
+
+nav{
+    width: 71%;
+    max-width: 1140px;
+    /* border: 1px solid tomato; */
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* ----logo----- */
+nav .logo h2{
+    font-size: 45px;
+}
+nav .logo span{
+    color: #FD6E0A;
+}
+/* ----manu---- */
+nav .menu{
+    display: flex;
+    align-items: center;
+    gap: 51px;
+    list-style-type: none;
+}
+
+nav .menu a{
+    font-size: 20px;
+    color: #474747;
+    text-decoration: none;
+}
