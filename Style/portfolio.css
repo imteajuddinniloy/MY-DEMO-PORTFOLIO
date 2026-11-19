@@ -44,6 +44,12 @@
     color: #757575;
 }
 
+/* ----alignment---- */
+.align{
+   text-align: center;
+   margin-top: 60px;
+}
+
 /* ==== MAIN STYLE ==== */
 
 /* ==== heading Section ==== */
@@ -251,4 +257,88 @@ nav .menu a{
 
 .resume-container hr{
     margin: 30px 0;
+}
+
+/* ===== FOOTER SECTION ===== */
+footer{
+    margin-top: 130px;
+    padding: 130px 0;
+    background-color: #FFF8F3;
+
+}
+
+footer .footer-container{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+/* ----Social----- */
+.footer-container .social{
+    max-width: 500px;
+    align-self: center;
+}
+
+.footer-container p{
+    font-size: 16px;
+    line-height: 28px;
+    color: #474747;
+    margin-bottom: 30px;
+}
+
+.footer-container h2{
+    font-size: 35px;
+    color: #181818;
+    margin-bottom: 20px;
+}
+.social .icons a{
+    display: block;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: blue;
+} 
+
+/* ------- Form------------ */
+footer .form{
+    max-width: 500px;
+}
+footer .form fieldset{
+    padding: 30px;
+    border: 1px solid #757575;
+}
+
+footer .form fieldset legend{
+    font-size: 35px;
+    color: #181818;
+    font-weight: bold;
+}
+
+footer .form input[type="text"],
+footer .form input[type="email"],
+footer .form textarea{
+    width: 445px;
+    padding: 18px 30px;
+    margin-bottom: 24px;
+    border: none;
+    border-radius: 5px;
+
+}
+ /* input {
+    padding: 20px;
+    border: 1px solid gray;
+} */
+
+.copyright {
+    text-align: center;
+    font-size: 20px;
+    color: #474747;
+    margin-top: 70px;
 }
