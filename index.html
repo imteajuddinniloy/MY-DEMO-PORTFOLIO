@@ -13,6 +13,9 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 
+    <!-- =================== font-awesome=================  -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer">    
+
 </head>
 <body class="font-open-sans">
     
@@ -25,10 +28,10 @@
             </div>
 
             <ul class="menu">
-                <li><a href="">About Me</a></li>
-                <li><a href="">Skills</a></li>
-                <li><a href="">Message Me</a></li>
-                <li><button class="btn">Hire Me</button></li>
+                <li ><a class="hover" href="#about">About Me</a></li>
+                <li><a class="hover" href="#skills">Skills</a></li>
+                <li><a class="hover" href="#Message" >Message Me</a></li>
+                <li><button class="btn hover"><i class="fa-solid fa-credit-card"></i> Hire Me</button></li>
             </ul>
         </nav>
 
@@ -40,8 +43,8 @@
                 <p>Shot what able cold new see hold.Friendly as an betrayed formerly he. Morning because as to society behaved moments.</p>
                 
                 <div>
-                    <button class="btn">Download CV</button>
-                    <button class="btn">Contact</button>
+                   <a href="#resume"> <button class="btn hover" ><i class="fa-solid fa-download"></i> Download CV</button></a>
+                    <a href="#footer"><button class="btn hover"><i class="fa-solid fa-phone"></i> Contact</button></a>
                 </div>
             </div>
 
@@ -174,11 +177,11 @@
                     </div>
                </div>
             </div>
-             <div class="align"><button class="btn">Download</button></div>
+             <div class="align"><button class="btn hover"><i class="fa-solid fa-download"></i> Download</button></div>
         </section>
 </main>
 
-    <footer>
+    <footer id="footer">
         <section class="footer-container">
             
             <div class="social">
@@ -192,7 +195,7 @@
                 </div>
             </div>
 
-            <form class="form">
+            <form class="form" id="Message">
                 <fieldset>
                     <legend>Let’s Message me</legend>
                     <div class="class">
@@ -205,7 +208,7 @@
                         <textarea rows="6" name="Message" placeholder="Share Your Advice"></textarea>
                     </div>
                     <div class="class">
-                        <input class="btn" type="submit" value="Sent">
+                        <input class="btn hover" type="submit" value="Sent">
                     </div>
                 </fieldset>
             </form>

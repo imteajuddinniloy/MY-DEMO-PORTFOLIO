@@ -13,6 +13,11 @@
     box-sizing: border-box;
 }
 
+/* -----scroll-behavior------- */
+html{
+    scroll-behavior: smooth;
+}
+
 /* ----Button----- */
 .btn{
     border: none;
@@ -44,6 +49,19 @@
     color: #757575;
 }
 
+/* ---------Hover--------- */
+.hover{
+    display:inline-block;
+    transition: 0.3s ease-out;
+    
+}
+
+.hover:hover{
+    
+    transform: translate(5px);
+
+}
+
 /* ----alignment---- */
 .align{
    text-align: center;
@@ -59,7 +77,8 @@ header{
     background-color: #FFF8F3;
     background: url(../images/developer.png), url(../images/header_bg.png), #FFF8F3;
     background-repeat: no-repeat;
-    background-position: top left, bottom right;
+    background-position: 23px 38px, bottom right;
+    background-size: 80px, auto;
     padding-top: 50px;
 }
 
