@@ -31,9 +31,24 @@
                 <li ><a class="hover" href="#about">About Me</a></li>
                 <li><a class="hover" href="#skills">Skills</a></li>
                 <li><a class="hover" href="#Message" >Message Me</a></li>
-                <li><button class="btn hover"><i class="fa-solid fa-credit-card"></i> Hire Me</button></li>
+                <li><button class="btn hover" onclick="hireform.showModal()"><i class="fa-solid fa-credit-card"></i> Hire Me</button></li>
             </ul>
         </nav>
+
+        <!-- -------- hire form----------- -->
+       <section class="dialog-box">
+          <dialog id="hireform">
+            <button class="close" onclick="hireform.close()"><i class="fa-solid fa-square-minus"></i></button>
+            <h2>Reserve Your Spot</h2>
+            <p>Please fill out the form and send it to me to book. I’ll message you shortly!</p>
+            <form>
+            <input type="text" name="name" placeholder="Your name/Company Name"><br>
+            <input type="email" name="email" placeholder="Your Email"><br>
+            <input type="text" name="time" placeholder="e.g., 2:00 PM EST or Anytime"> <br>
+            <input class="btn" type="submit" value="Book">
+            </form>
+        </dialog>
+       </section>
 
         <!-- ==== BANNER ==== -->
          <section id="banner">
