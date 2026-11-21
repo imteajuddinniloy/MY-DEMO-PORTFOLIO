@@ -27,16 +27,27 @@
                 <h2><span>im</span>teaj</h2>
             </div>
 
-            <ul class="menu">
-                <li ><a class="hover" href="#about">About Me</a></li>
+               <!-- ------mobile------ -->
+             <details class="mobile-manu">
+                <summary>Menu</summary>
+                <ul><li ><a class="hover" href="#about">About Me</a></li>
                 <li><a class="hover" href="#skills">Skills</a></li>
-                <li><a class="hover" href="#Message" >Message Me</a></li>
+                <li><a class="hover" href="#Message" >Message Me</a></li></ul>
+                </details>
+
+            <ul class="menu">
+                <li><a class="hover m-hide" href="#about">About Me</a></li>
+                <li><a class="hover m-hide" href="#skills">Skills</a></li>
+                <li><a class="hover m-hide" href="#Message" >Message Me</a></li>
                 <li><button class="btn hover" onclick="hireform.showModal()"><i class="fa-solid fa-credit-card"></i> Hire Me</button></li>
             </ul>
+
+
+         
         </nav>
 
         <!-- -------- hire form----------- -->
-       <section class="dialog-box">
+       <section class="dialog-box" >
           <dialog id="hireform">
             <button class="close" onclick="hireform.close()"><i class="fa-solid fa-square-minus"></i></button>
             <h2>Reserve Your Spot</h2>
@@ -211,8 +222,8 @@
             </div>
 
             <form class="form" id="Message">
-                <fieldset>
-                    <legend>Let’s Message me</legend>
+                
+                    <h2>Let’s Message me</h2>
                     <div class="class">
                         <input type="text" name="name" placeholder="Your Name">
                     </div>
